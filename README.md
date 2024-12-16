@@ -1,9 +1,9 @@
 rfriends_chromeosはchromeOS上にrfriends3をインストールするスクリプトです。  
   
 cd ~/  
-pkg install git -y  
-git clone https://github.com/rfriends/rfriends_chromeos.git  
-cd rfriends_chromeos  
+wget -O rfriends_chromeos-main.zip https://github.com/rfriends/rfriends_chromeos/archive/master.zip  
+unzip rfriends_chromeos-main.zip  
+cd rfriends_chromeos-main  
 sh rfriends3_chromeos.sh  
   
 インストール方法は以下が参考になります。  
